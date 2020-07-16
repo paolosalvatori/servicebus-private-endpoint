@@ -21,7 +21,7 @@ The ARM template deploys the following resources:
 - The NIC used by the Linux virtual machine that makes use of the Public IP
 - A Linux virtual machine used for testing the connectivity to the storage account via a private endpoint
 - A Log Analytics workspace used to monitor the health status of the Linux virtual machine
-- A Blob Storage Account used to store data on the Azure Data Lake File System
+- A Blob Storage Account used to store the boot diagnostics log of the virtual machine
 - A Service Bus namespace
 - A Private DNS Zone for Blob private endpoints
 - A Private DNS Zone for Service Bus private endpoints
@@ -81,6 +81,6 @@ The following figure shows the resources deployed by the ARM template in the tar
 
 ## Testing ##
 
-if you open an ssh session to the Linux virtual machine and manually run the nslookup command, you should see an output like the following:
+If you open an ssh session to the Linux virtual machine and manually run the nslookup command, you should see an output like the following:
 
 ![Architecture](images/nslookup.png)
