@@ -173,7 +173,7 @@
     },
     "scriptFilePath": {
       "type": "string",
-      "defaultValue": "https://paolosalvatori.blob.core.windows.net/scripts",
+      "defaultValue": "https://raw.githubusercontent.com/paolosalvatori/servicebus-private-endpoint/master/scripts",
       "metadata": {
         "description": "Specifies the relative path of the scripts used to initialize the virtual machine."
       }
