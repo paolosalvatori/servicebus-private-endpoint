@@ -27,7 +27,7 @@ The ARM template deploys the following resources:
 - A Private DNS Zone for Service Bus private endpoints
 - A Private Endpoint to let the virtual machine access the Blob Storage Account via a private address
 - A Private Endpoint to let the virtual machine access the messaging entities in the Service Bus namespace via a private address
-- A Private DNS Zone Group for the Service private endpoint
+- A Private DNS Zone Group for the Service Bus private endpoint
 - A Private DNS Zone Group for the Blob Storage Account private endpoint
 
 The [PrivateDnsZoneGroups](https://docs.microsoft.com/en-us/azure/templates/microsoft.network/privateendpoints/privateDnsZoneGroups) resource type establishes a relationship between the Private Endpoint and the Private the privatelink.* DNS zone for the name resolution of the fully qualified name of the resource referenced by the Private Endpoint.
